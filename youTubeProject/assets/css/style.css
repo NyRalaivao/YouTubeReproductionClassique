@@ -6,6 +6,11 @@
 }
 
 /* Navbar */
+section{
+    display: flex;
+    justify-content:baseline;
+    padding-top: 75px;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -14,6 +19,9 @@
     background-color: #fff;
     padding: 2em;
     border-bottom: solid grey 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-logo{
@@ -87,8 +95,6 @@
     padding-block: 5px;
     border-radius: 10px;
     cursor: pointer;
-    
-    
 }
 
 .navbar-profil2{
@@ -103,6 +109,49 @@
 
 /* sidebar */
 
-.sidebar{
-    display: block;
+.sidebar {
+    max-width: 30vh;
+    margin-left: 2em;
+}
+
+li{
+    list-style: none;
+}
+
+.first-sidebar ul li{
+    margin-block: 2vh;
+}
+
+.sidebar-you p, .sidebar-you div ul li{
+    margin-block: 2vh;
+}
+
+.sidebar-explore p, .sidebar-explore div ul li{
+    margin-block: 2vh;
+}
+
+.sidebar-more p, .sidebar-more div ul li{
+    margin-block: 2vh;
+}
+
+.final-sidebar ul li {
+    margin-block: 2vh;
+}
+
+.copyright{
+    margin-block: 2em;
+}
+
+i{
+    padding-right: 3vh;
+}
+
+.sidebar-you p , .sidebar-explore p , .sidebar-more p{
+    font-weight: bold;
+}
+
+/* contenu */
+
+.content{
+    padding-left: 5vh;
 }
