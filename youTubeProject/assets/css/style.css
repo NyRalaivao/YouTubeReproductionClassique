@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Navbar */
 .navbar{
     display: flex;
     align-items: center;
@@ -27,7 +28,6 @@
 }
 
 .navbar-logo i{
-    
     font-size: 20px;
 }
 
@@ -61,6 +61,10 @@
     padding-left: 10px;
 }
 
+.navbar-search-bar div i{
+    cursor: pointer;
+}
+
 .micro {
     font-size: 20px;
     padding: 2px;
@@ -90,8 +94,15 @@
 .navbar-profil2{
     margin-left: 10px;
 }
+
 .navbar-profil i{
     margin-inline: 10px;
     font-size: 25px;
     cursor: pointer;
+}
+
+/* sidebar */
+
+.sidebar{
+    display: block;
 }
