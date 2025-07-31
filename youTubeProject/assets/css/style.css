@@ -18,7 +18,7 @@ section{
     height: 50px;
     background-color: #fff;
     padding: 2em;
-    border-bottom: solid grey 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     width: 100%;
@@ -170,9 +170,6 @@ i{
 
 .content-menu ul{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
 }
 
 .content-menu ul li{
@@ -210,6 +207,4 @@ i{
     width: 20em;
     height: 15em;
     border-radius: 10px;
-    border: 2px solid black;
-    
 }
