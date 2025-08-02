@@ -215,3 +215,21 @@ i{
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+@media (max-width:600px) {
+    .content-menu{
+        display:none;
+    }
+
+    .navbar-search-bar div input{
+        display: none;
+    }
+
+    .principal-content{
+        padding-left: 15vh;
+    }
+
+    .sidebar{
+       width: 11em;;
+    }
+}
